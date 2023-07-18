@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ctv-home/static/css/main.7b463cb3.css",
+    "main.js": "/ctv-home/static/js/main.14a09c7a.js",
+    "static/media/Block 4-100.jpg": "/ctv-home/static/media/Block 4-100.e323c46ed869608d1ff6.jpg",
+    "static/media/Block 2-100.jpg": "/ctv-home/static/media/Block 2-100.b3032baf975efc862ec5.jpg",
+    "static/media/Block 3-100.jpg": "/ctv-home/static/media/Block 3-100.e361a874f6bdc52f8743.jpg",
+    "static/media/Block 1-100.jpg": "/ctv-home/static/media/Block 1-100.d5fcfa41821011481518.jpg",
+    "static/media/hP banner 02.png": "/ctv-home/static/media/hP banner 02.00c59c4a79448cd44090.png",
+    "static/media/HOME-banner-03.jpg": "/ctv-home/static/media/HOME-banner-03.4267f0da3c79e9d90228.jpg",
+    "static/media/About Us image.png": "/ctv-home/static/media/About Us image.db33f73aea22e3a9f058.png",
+    "static/media/HOME-banner-02.jpg": "/ctv-home/static/media/HOME-banner-02.afa12f8376cf4132b2ee.jpg",
+    "static/media/Our Promise image.png": "/ctv-home/static/media/Our Promise image.f3e2ea4ddd69cb7cab69.png",
+    "static/media/Our Edge image.png": "/ctv-home/static/media/Our Edge image.fb672ad86238556a614f.png",
+    "static/media/image-01.png": "/ctv-home/static/media/image-01.c6d15d8ff74be6f4ec65.png",
+    "static/media/HOME-banner-01.jpg": "/ctv-home/static/media/HOME-banner-01.e26c7f45c27888939347.jpg",
+    "static/media/Faiba Fasta Banner.png": "/ctv-home/static/media/Faiba Fasta Banner.cd4136df9c4da9516abe.png",
+    "static/media/Tanzania banner.png": "/ctv-home/static/media/Tanzania banner.ecc3b0ccf42fbd77be20.png",
+    "static/media/Tanzania Map.png": "/ctv-home/static/media/Tanzania Map.00a32ef8b8b56038846e.png",
+    "static/media/Icons HP.png": "/ctv-home/static/media/Icons HP.8ecece5b0d594c4da7bf.png",
+    "index.html": "/ctv-home/index.html",
+    "main.7b463cb3.css.map": "/ctv-home/static/css/main.7b463cb3.css.map",
+    "main.14a09c7a.js.map": "/ctv-home/static/js/main.14a09c7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b463cb3.css",
+    "static/js/main.14a09c7a.js"
+  ]
+}
