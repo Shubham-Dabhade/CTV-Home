@@ -1,0 +1,200 @@
+.AboutusHome{
+    height: 100%;
+    width: 100%;
+    padding: 50px 0px;
+}
+.innerAboutUsHome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* segment-1 */
+.aboutus_segment-1_top{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: 20px;
+}
+.segment1_left{
+    width: 45%;
+    margin: 10px ;
+    background: #0F75BD;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px 70px 40px 70px;
+    height: 90%;
+}
+.segment1_title{
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.segment1_content{
+    color: white;
+}
+.segment1_content_top{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.segment1_button{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.segment1_right{
+    width: 47%;
+    margin: 10px 0px 0px 30px;
+}
+.segment1_img{
+    height: 98%;
+    width: 94%;
+}
+
+/* segment-2 */
+.aboutus_segment-2_top{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin: 10px;
+}
+.segment2_left{
+    width: 45%;
+    margin: 10px ;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px 70px 40px 70px;
+    height: 100%;
+}
+.segment2_title{
+    color:#0F75BD;
+    font-size: 35px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.segment2_content{
+    color:#000000;
+}
+.segment2_content_top{
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.segment2_button{
+    color:#0F75BD;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.segment2_right{
+    width: 47%;
+    margin: 10px 30px 0px 20px;
+}
+.segment2_img{
+    height: 98%;
+    width: 96%;
+}
+
+@media screen and (max-width:1024px) {
+    .segment1_left {
+        flex: 1;
+        margin: 10px;
+        background: #0F75BD;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 33px 53px 28px 48px;
+    }
+    .segment1_right{
+        width: 47%;
+        margin: 10px 0px 0px 25px;
+    }
+    .segment2_left {
+        flex: 1;
+        padding: 33px 53px 28px 48px;
+    }
+    .segment2_right{
+        width: 47%;
+        margin: 10px 0px 0px 25px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .AboutusHome {
+        height: 100%;
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .segment1_title {
+        font-size: 27px;
+    }
+    .segment1_content_top {
+        font-size: 12px;
+    }
+    .segment1_content_bottom {
+        font-size: 12px;
+    }
+    .segment1_button {
+        font-size: 17px;
+        margin-top: 15px;
+    }
+    .segment2_title {
+        font-size: 27px;
+    }
+    .segment2_content_top {
+        font-size: 12px;
+    }
+    .segment2_content_bottom {
+        font-size: 12px;
+    }
+    .segment2_button {
+        font-size: 17px;
+        margin-top: 15px;
+    }
+    .segment1_left {
+        flex: 1 1;
+        padding: 8px 29px 18px 23px;
+    }
+    .segment2_left {
+        flex: 1 1;
+        padding: 8px 29px 18px 23px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .AboutusHome {
+        height: 100%;
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .aboutus_segment-1_top{
+        flex-direction: column;
+    }
+    .aboutus_segment-2_top{
+        flex-direction: column;
+    }
+    .segment1_left {
+        width: 94%;
+    }
+    .segment2_left {
+        width: 94%;
+    }
+    .segment1_right {
+        width: 100%;
+        margin: 10px 0px 0px 8px;
+    }
+    .segment2_right {
+        width: 100%;
+        margin: 10px 0px 0px 8px;
+    }
+}

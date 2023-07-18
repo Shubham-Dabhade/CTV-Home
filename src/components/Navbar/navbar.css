@@ -1,0 +1,36 @@
+/* navbar */
+
+.res-brand{
+    margin-left: 70px;
+}
+.hamburger-button-toggle{
+    position: absolute;
+    right: 30px;
+    top: 25px;
+}
+.dash{
+    height: 5px;
+    width: 30px;
+    background-color: rgba(0, 0, 0, 0.488);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:425px) {
+    .res-brand{
+        height: 30px;
+        margin-left: 10px;
+    }  
+    .hamburger-button-toggle{
+        position: absolute;
+        right: 30px;
+        top: 18px;
+    }  
+    .dash{
+        height: 4px;
+        width: 28px;
+        background-color: rgba(0, 0, 0, 0.488);
+        margin: 5px;
+        border-radius: 10px;
+    }
+}
