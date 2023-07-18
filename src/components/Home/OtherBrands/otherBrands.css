@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     padding: 0px 70px;
-
+    
 }
 .otherBrandsTitle_Home{
     color: #0F75BD;
@@ -50,7 +50,7 @@
         width: 50%;
     }
 }
-@media screen and (max-width:425px) {
+@media screen and (max-width:425px){
     .innerOtherBrands_Home {
         display: flex;
         flex-direction: column;
@@ -64,30 +64,43 @@
         flex-direction: column;
     }
     .brand1_block {
+        height: 45vh;
         margin-right: 0px;
         width: 100%;
     }
     .brand2_block {
+        height: 45vh;
         margin-top: 20px;
         margin-right: 0px;
         width: 100%;
         margin-left: 0px;
     }
+}   
+
+@media screen and (max-width:375px){
+    .brand1_block {
+        height: 45vh;
+    }
+    .brand2_block {
+        height: 45vh;
+    }
+}
+@media screen and (max-width:320px){
+    .brand1_block {
+        height: 37vh;
+    }
+    .brand2_block {
+        height: 37vh;
+    }
 }
 
-@media screen and (max-width:375px) {
-    .brand1_block {
-        height: 45vh;
+@media screen and (max-width:425px) and (max-height:1180px)  {
+    .brand1_block{
+        width: 90%;
+        height: 34vh;
     }
-    .brand2_block {
-        height: 45vh;
-    }
-}
-@media screen and (max-width:320px) {
-    .brand1_block {
-        height: 37vh;
-    }
-    .brand2_block {
-        height: 37vh;
+    .brand2_block{
+        width: 90%;
+        height: 33vh;
     }
 }
