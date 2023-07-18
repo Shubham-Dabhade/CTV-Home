@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ctv-home/static/css/main.7b463cb3.css",
+    "main.css": "/ctv-home/static/css/main.d2cada26.css",
     "main.js": "/ctv-home/static/js/main.14a09c7a.js",
     "static/media/Block 4-100.jpg": "/ctv-home/static/media/Block 4-100.e323c46ed869608d1ff6.jpg",
     "static/media/Block 2-100.jpg": "/ctv-home/static/media/Block 2-100.b3032baf975efc862ec5.jpg",
@@ -19,11 +19,11 @@
     "static/media/Tanzania Map.png": "/ctv-home/static/media/Tanzania Map.00a32ef8b8b56038846e.png",
     "static/media/Icons HP.png": "/ctv-home/static/media/Icons HP.8ecece5b0d594c4da7bf.png",
     "index.html": "/ctv-home/index.html",
-    "main.7b463cb3.css.map": "/ctv-home/static/css/main.7b463cb3.css.map",
+    "main.d2cada26.css.map": "/ctv-home/static/css/main.d2cada26.css.map",
     "main.14a09c7a.js.map": "/ctv-home/static/js/main.14a09c7a.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b463cb3.css",
+    "static/css/main.d2cada26.css",
     "static/js/main.14a09c7a.js"
   ]
 }
