@@ -1,21 +1,25 @@
 import "./App.css"
-import AboutUs from "./components/Home/AboutUs/AboutUs";
-import Carousel from "./components/Home/Carousel/Carousel";
-import InfoBlock1 from "./components/Home/InfoBlock1/InfoBlock1";
-import InfoBlock2 from "./components/Home/InfoBlock2/InfoBlock2";
-import OtherBrands from "./components/Home/OtherBrands/OtherBrands";
-import Navbar from "./components/Navbar/Navbar";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route, Redirect,Navigate
+} from "react-router-dom";
+import AboutUs from "./pages/AboutUs/AboutUs";
+import Home from "./pages/Home/Home";
+import OurPromise from "./pages/OurPromise/OurPromise";
+
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Carousel/>
-      <InfoBlock1/>
-      <InfoBlock2/>
-      <AboutUs/>
-      <OtherBrands/>
-    </div>
+    <Router>
+      <div className="App">
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/aboutus" element={<AboutUs/>} />
+        <Route path="/ourpromise" element={<OurPromise/>} />
+      </Routes>
+      </div>
+    </Router>
   );
 }
 

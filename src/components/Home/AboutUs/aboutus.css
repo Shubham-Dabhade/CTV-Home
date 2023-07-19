@@ -46,6 +46,10 @@
     margin-top: 30px;
     cursor: pointer;
 }
+.segment1_button a{
+    color: white;
+    text-decoration: none;
+}
 
 .segment1_right{
     width: 47%;
@@ -94,6 +98,10 @@
     font-weight: 500;
     margin-top: 30px;
     cursor: pointer;
+}
+.segment2_button a{
+    color:#0F75BD;
+    text-decoration: none;
 }
 
 .segment2_right{

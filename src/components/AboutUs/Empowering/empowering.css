@@ -1,0 +1,47 @@
+.Empowering{
+    height: 95vh;
+}
+.insideEmpowering{
+    height: 100%;
+    width: 100%;
+}
+.empowering_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width:768px){
+    .Empowering {
+        height: 57vh;
+    }
+}
+
+@media  screen and (max-width: 426px){
+    .Empowering{
+        height: 34vh;
+    }
+}
+
+@media  screen and (max-width: 376px){
+    .Empowering{
+        height: 30vh;
+    }
+}
+
+@media  screen and (max-width: 321px){
+    .Empowering{
+        height: 25vh;
+    }
+}
+
+@media screen and (max-width:425px) and (max-height:1180px)  {
+    .Empowering{
+        height: 30vh;
+    }
+    .empowering_img {
+        height: 98%;
+        width: 100%;
+        object-fit: fill;
+    }
+}

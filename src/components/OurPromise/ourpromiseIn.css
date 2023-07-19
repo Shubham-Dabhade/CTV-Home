@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.upperblock{
+    display: flex;
+    justify-content: center;
+}
+.flex-item img{
+    flex: 1; /* Each flex item takes equal width */
+    margin: 0 10px; /* Adjust the value to set the desired gap between the images */
+    height: 200px; /* Set the desired height for the images */
+    background-color: #ccc; /* Set the desired background color for the images */
+  }
+
+.upperblock{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.lowerblock{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.flex-item img{
+flex: 1; /* Each flex item takes equal width */
+margin: 20px 20px; /* Adjust the value to set the desired gap between the images */
+height: 200px; /* Set the desired height for the images */
+background-color: #ccc; /* Set the desired background color for the images */
+max-width: 100%;
+max-height: 100%;
+}
+.img7{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+margin-bottom: 70px;
+}
+@media only screen and (min-width: 200px) and (max-width:767px) {
+html{
+  font-size: 14px;
+}
+.upperblock{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.lowerblock{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flex-item{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.img7{
+    flex-direction: column;
+    width: 80%;
+}
+.banner{
+    width: 100%;
+    align-items: center;
+}
+}

@@ -1,0 +1,143 @@
+.main-container1 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #E8E8EA;
+    padding: 2rem 9rem;
+    width: 100%;
+    position: relative;
+  }
+.infoBlock2_top1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.infoBlock2_top_button1{
+    font-size: 20px;
+    color: #1472B9;
+    font-weight: 650;
+    position: absolute;
+    display: inline-block;
+    right: 80px;
+    bottom: 30px;
+    cursor: pointer;
+}
+
+.service_heading1{
+    width: 400px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.img11{
+    margin-top: 10px;
+}
+  .img21 {
+    left: 10vh;
+    top: -8vh;
+    position: absolute;
+    height: 30rem;
+    width: 31rem;
+  }
+  .Tanzania_img1{
+    height: 100%;
+    width: 100%;
+  }
+
+  .leftblock1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vh;
+    color: #1472B9;
+  }
+
+  /* Media Query for PCs */
+  @media only screen and (max-width: 1024px) {
+    .main-container1 {
+      flex-direction: column;
+      align-items: center;
+    }
+    .service_heading1{
+        width: 100%;
+        font-size: 36px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .leftblock1 {
+      margin: 2rem;
+      display: flex;
+      align-items: center;
+    }
+    .img11{
+        margin-top: 20px;
+    }
+
+    .img21 {
+      position: static;
+      margin-top: 1.2rem;
+      align-self: center;
+    }
+    .infoBlock2_top_button1{
+        font-size: 20px;
+        font-weight: 550;
+        right: 80px;
+        bottom: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .infoBlock2_top_button1{
+        font-size: 17px;
+        font-weight: 550;
+        right: 50px;
+        bottom: 20px;
+    }
+  }
+
+  /* Media Query for Mobile */
+  @media only screen and (max-width: 480px) {
+    .main-container1 {
+      flex-direction: column;
+      align-items: center;
+    }
+    .service_heading1{
+        width: 100%;
+        font-size: 28px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .img21{
+        height: 20rem;
+        width: 21rem;
+    }
+    .leftblock1 {
+      margin: 1rem;
+      text-align: center;
+    }
+    .infoBlock2_top_button1{
+        font-size: 11px;
+        font-weight: 550;
+        right: 20px;
+        bottom: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    .leftblock1 {
+        margin: 0rem;
+        width: 300px;
+      }
+    .inside_img11{
+    width: 100%;
+    }
+    .img21{
+    height: 20rem;
+    width: 20rem;
+    }
+    .infoBlock2_top_button1{
+        font-size: 9px;
+        font-weight: 550;
+        right: 20px;
+        bottom: 4px;
+    }
+}

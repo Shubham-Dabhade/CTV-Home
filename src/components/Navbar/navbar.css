@@ -1,6 +1,16 @@
 /* navbar */
-
+.navbar_whole{
+    position: relative;
+    height: 100%;
+}
+.navbar-custom{
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 666;
+}
 .res-brand{
+    cursor: pointer;
     margin-left: 70px;
 }
 .hamburger-button-toggle{
@@ -14,6 +24,52 @@
     background-color: rgba(0, 0, 0, 0.488);
     margin: 5px;
     border-radius: 10px;
+}
+
+.remove{
+    display: none;
+}
+.right_toggled_segment{
+    position: fixed;
+    right: 0px;
+    width: 36vh;
+    height: 100vh;
+    z-index: 999;
+    background-color: aliceblue;
+    transition: transform;
+}
+.clearIcon{
+    height: 40px !important;
+    width: 40px !important; 
+    color: grey;
+    position: relative;
+    left: 156px;
+    top: 10px;
+}
+.right_toggled_list{
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.right_toggled_list_items{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    font-size: 20px;
+    padding-left: 10px;
+    color: grey;
+    align-items: center;
+    border-bottom: 1px solid rgba(184, 184, 184, 0.356);
+    cursor: pointer;
+}
+.right_toggled_list_items a{
+    text-decoration: none;
+    color: grey;
+}
+.right_toggled_list_items a:hover{
+    color: black ;
 }
 
 @media screen and (max-width:425px) {

@@ -19,7 +19,9 @@ const AboutUs = () => {
                         </div>
                     </div>
                     <div className="segment1_button">
+                    <a href="/aboutus">
                         Read More
+                    </a>
                     </div>
                 </div>
                 <div className="segment1_right">
@@ -37,7 +39,9 @@ const AboutUs = () => {
                         </div>
                     </div>
                     <div className="segment2_button">
+                    <a href="/ourpromise">
                         Read More
+                    </a>
                     </div>
                 </div>
                 <div className="segment2_right">
@@ -55,6 +59,7 @@ const AboutUs = () => {
                         </div>
                     </div>
                     <div className="segment1_button">
+
                         Read More
                     </div>
                 </div>
