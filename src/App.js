@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div className="App">
       <Routes>
-        <Route path="/ctv-home" element={<Home/>} />
+        <Route path="/" element={<Home/>} />
         <Route path="/aboutus" element={<AboutUs/>} />
         <Route path="/ourpromise" element={<OurPromise/>} />
       </Routes>
