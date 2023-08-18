@@ -1,0 +1,252 @@
+.ContactUs{
+    height: 100%;
+}
+.upper-contactus-banner{
+    width: 100%;
+}
+.contactus-banner-img{
+    width: 100%;
+}
+
+.middle-contactus-blocks{
+    width: 100%;
+    margin-top: 40px;
+    padding: 0px 70px;
+    margin-bottom: 40px;
+}
+.block-set1-contactus{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contactus-block-set1-inside{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    background-color:  #2d6cca;;
+    color: #ffffff;
+    height: 175px;
+    margin: 20px;
+}
+.contactus-block-set1-title{
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+
+.bottom-contactus-email{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contacus-email-title{
+    font-size: 35px;
+    color: #2D6CCA;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.email-contactus-block{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0px 50px;
+}
+
+.email-contactus-leftblock{
+    background: #2D6CCA;
+    padding: 30px 50px;
+    color: white;
+    flex: 1;
+}
+.contactus-email{
+    width: 100%;
+}
+.contact-name{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.first-name{
+    flex: 1;
+    margin-right: 10px;
+}
+.last-name{
+    flex: 1;
+}
+.contact-email{
+    margin-bottom: 10px;
+}
+.contact-phone{
+    margin-bottom: 10px;
+}
+.contact-company{
+    margin-bottom: 10px;
+}
+.contact-message{
+    margin-bottom: 10px;
+}
+.contactus-form-submit{
+    padding: 12px;
+    border-radius: 10px;
+    width: 140px;
+    margin: 12px 0px;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+.email-contactus-right{
+    width: 50%;
+    padding: 0px 0px 0px 40px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+}
+.contactus-content{
+    width: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.techsupport{
+    margin: 20px;
+}
+.contactus-content-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.sales-contactus{
+    margin: 20px;
+}
+
+.email-contactus-background{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    bottom: 40px;
+    right: -55px;
+}
+.email-contactus-background-img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:1075px) {
+    .email-contactus-background{
+        width: 55%;
+        height: 50%;
+        position: absolute;
+        bottom: 40px;
+        right: -0px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .email-contactus-block{
+        flex-direction: column-reverse;
+    }
+
+    .email-contactus-right {
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        overflow: hidden;
+        height: 60vh;
+    }
+    .email-contactus-background {
+        width: 55%;
+        height: 77%;
+        position: absolute;
+        bottom: 40px;
+        right: 0px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .email-contactus-background {
+        width: 55%;
+        height: 49%;
+        position: absolute;
+        bottom: 89px;
+        right: -18px;
+    }
+    .contactus-form-submit{
+        padding: 6px;
+        border-radius: 10px;
+        width: 80px;
+        margin: 12px 0px;
+        border: none;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .email-contactus-background {
+        display: none;
+    }
+    .email-contactus-right {
+        height: 42vh;
+        margin-bottom: 30px;
+    }
+    .contact-name {
+        display: flex;
+        align-items: normal;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .first-name{
+        margin-bottom: 10px;
+    }
+    
+    .email-contactus-leftblock {
+        background: #2D6CCA;
+        padding: 30px 15px;
+        color: white;
+        flex: 1 1;
+    }
+    .sales-contactus {
+        margin: 10px;
+    }
+    .techsupport{
+        margin: 10px;
+    }    
+    .email-contactus-block {
+        padding: 0px 30px;
+    }
+    .contactus-content-title {
+        font-size: 25px;
+        margin-bottom: 12px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .contactus-content-email{
+        text-align: center;
+    }
+    .contactus-content-phone{
+        text-align: center;
+    }
+}

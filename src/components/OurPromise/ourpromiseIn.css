@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.upperblock1 {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-img {
+  height: 100%;
+  width: 100%;
+}
+
+.our_promise_new_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px;
+}
+.inside_our_promise_container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+/* upper block */
+.new_our_promise_upper_block {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px 30px;
+}
+.new_our_promise_upper_block_contents_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+  position: relative;
+  background: #e6e9ea;
+}
+
+/* handling unqiue block */
+.different_upper_block_container_title {
+  font-size: 35px;
+  color: white;
+  font-weight: 500;
+  width: 50%;
+  line-height: 37px;
+  margin-bottom: 20px;
+}
+.different_upper_block_container_desc {
+  color: white;
+}
+
+/* handling same blocks */
+.same_upper_container_title {
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  width: 70%;
+}
+.same_upper_container_desc {
+}
+
+.our_promise_c_image {
+  position: absolute;
+  height: 30%;
+  right: 0px;
+  top: 10px;
+}
+
+/* handling lower block */
+.new_our_promise_lower_block {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 0px;
+  margin-top: 30px;
+}
+.lower_block_content {
+  font-size: 17px;
+  margin: 3px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 1500px) {
+  .new_our_promise_upper_block_contents_container {
+    padding: 40px;
+    height: 40vh;
+    justify-content: space-evenly;
+  }
+  .different_upper_block_container_title {
+    font-size: 60px;
+    color: white;
+    font-weight: 500;
+    width: 47%;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+  .different_upper_block_container_desc {
+    width: 80%;
+    color: white;
+    font-size: 24px;
+  }
+  .same_upper_container_title {
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    width: 75%;
+  }
+  .same_upper_container_desc {
+    font-size: 24px;
+    width: 80%;
+  }
+  .lower_block_content {
+    font-size: 28px;
+    margin: 3px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .new_our_promise_upper_block_contents_container {
+    padding: 40px;
+    height: 35vh;
+    justify-content: space-evenly;
+  }
+  .different_upper_block_container_title {
+    font-size: 70px;
+    color: white;
+    font-weight: 500;
+    width: 47%;
+    line-height: 70px;
+    margin-bottom: 35px;
+  }
+  .different_upper_block_container_desc {
+    width: 80%;
+    color: white;
+    font-size: 28px;
+  }
+  .same_upper_container_title {
+    color: black;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    width: 70%;
+  }
+  .same_upper_container_desc {
+    font-size: 28px;
+    width: 80%;
+  }
+  .lower_block_content {
+    font-size: 30px;
+    margin: 3px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .new_our_promise_upper_block {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px 30px;
+  }
+  .different_upper_block_container_title {
+    font-size: 27px;
+    color: white;
+    font-weight: 500;
+    width: 50%;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  .different_upper_block_container_desc {
+    color: white;
+    font-size: 15px;
+  }
+  .same_upper_container_desc {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lower_block_content {
+    font-size: 15px;
+    margin: 3px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .new_our_promise_lower_block {
+    padding: 30px 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+  .new_our_promise_upper_block {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px 30px;
+  }
+  .lower_block_content {
+    font-size: 12px;
+    margin: 3px 0px;
+    font-weight: 500;
+  }
+  .same_upper_container_title {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+  .different_upper_block_container_desc {
+    color: white;
+    font-size: 14px;
+  }
+  .same_upper_container_desc {
+    font-size: 14px;
+  }
+  .different_upper_block_container_title {
+    font-size: 25px;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .lower_block_content {
+    font-size: 10px;
+    margin: 3px 0px;
+    font-weight: 500;
+}
+}

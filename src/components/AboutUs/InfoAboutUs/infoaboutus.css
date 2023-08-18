@@ -1,0 +1,240 @@
+.InfoAboutUs{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:40px 0px 0px 0px;
+}
+.InsideInfoAboutUs{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.infoaboutus_left{
+    width: 100%;
+    padding: 0px;
+    font-size: 17px;
+    font-weight: 450;
+}
+.mar{
+    margin: 15px 0px;
+    margin-right: 0px;
+}
+.infoaboutus_seg1{
+    margin: 0px 0px 15px 0px;
+}
+.infoaboutus_seg2{
+    display: block;
+    color: #269FD8;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+}
+.common{
+    display: none;
+}
+
+.infoaboutus_right{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.upper_segment_1_info{
+    width: 96%;
+    height: 40%;
+}
+.upper_segment_1_info_img{
+    width: 100%;
+    height: 100%;
+}
+.bottom_segment_2_info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+.item-info-block-about-us{
+    position: relative;
+    width: 45%;
+    margin: 10px;
+    height: 45%;
+    display: flex;
+    padding: 33px 65px 28px 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.block_data{
+    height: 174px;
+    margin: 10px;
+}
+
+
+/* 4k */
+@media screen and (min-width:1441px) {
+    .InfoAboutUs {
+        height: 100%;
+        margin-bottom: 0px;
+    }
+    .infoaboutus_left {
+        width: 100%;
+        padding: 0px;
+        font-size: 23px;
+        font-weight: 450;
+    }
+    .infoaboutus_seg2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width:1745px) {
+    .InfoAboutUs {
+        height: 100%;
+    }
+    .infoaboutus_left {
+        width: 100%;
+        padding: 0px;
+        font-size: 25px;
+        font-weight: 450;
+    }
+}
+
+@media screen and (min-width:2060px) {
+    .InfoAboutUs {
+        height: 100%;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    .infoaboutus_left {
+        width: 100%;
+        padding: 0px;
+        font-size: 30px;
+        font-weight: 450;
+    }
+    .infoaboutus_seg2 {
+        display: block;
+        color: #269FD8;
+        cursor: pointer;
+        font-size: 35px;
+        font-weight: 500;
+    }
+    .mar{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:2440px) {
+    .InfoAboutUs {
+        height: 100%;
+    }
+    .infoaboutus_left {
+        width: 100%;
+        padding: 0px;
+        font-size: 29px;
+        font-weight: 450;
+    }
+    .mar{
+        margin-bottom: 22px;
+    }
+}
+
+@media screen and (max-width:1075px){
+    .mar {
+        margin: 17px 0px;
+        margin-right: 0px;
+    }
+    .infoaboutus_left {
+        width: 100%;
+        padding: 0px;
+        font-size: 15px;
+        font-weight: 450;
+    }
+    .infoaboutus_seg1 {
+        margin-top: 0px;
+    }
+    .upper_segment_1_info {
+        width: 96%;
+        height: 44%;
+    }
+    .block_data {
+        height: 133px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .block_data {
+        height: 126px;
+    }
+    .mar {
+        margin: 15px 0px;
+        margin-right: 0px;
+    }
+    .infoaboutus_seg1 {
+        margin-top: 0px;
+    }
+    .InfoAboutUs {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .infoaboutus_left {
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+    }
+    .infoaboutus_seg2{
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .InfoAboutUs {
+        height: 100%;
+    }   
+}
+
+@media screen and (max-width:425px) {
+    .mar {
+        margin-right: 0px;
+    }
+    .bottom_segment_2_info {
+        width: 100%;
+        height: 140vh;
+    }
+    .item-info-block-about-us {
+        width: 87%;
+        height: 23%;
+        color: white;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .block_data {
+        height: 156px;
+    }
+    .infoaboutus_left {
+        width: 100%;
+        height: 100%;
+        font-size: 12px;
+    }
+    .infoaboutus_seg2{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:320px) {
+    .block_data {
+        height: 132px;
+    }
+    .item-info-block-about-us {
+        width: 87%;
+        height: 23%;
+        color: white;
+        font-size: 14px;
+    }
+}

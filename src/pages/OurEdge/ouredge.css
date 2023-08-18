@@ -1,0 +1,257 @@
+.OurEdge{
+    margin-bottom: 80px;
+}
+.ouredgebanner img {
+  width: 100%;
+}
+
+.heading h1 {
+  margin-top: 30px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+  color: #0976BE;
+  font-size: 35px;
+  font-weight: 600;
+}
+.heading p {
+  margin-top: -25px;
+  margin-left: 70px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.para p {
+  margin-top: -15px;
+  margin-left: 70px;
+  font-weight: 500;
+}
+.divder p {
+  margin-left: 70px;
+  font-weight: 500;
+}
+.uppersection {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  /* padding: 0px 70px; */
+}
+.lowersection {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.flex-item {
+  flex: 1; /* Each flex item takes equal width */
+  height: 200px; /* Set the desired height for the images */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+font-weight: 500;
+  visibility: visible;
+}
+.flex-item img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  background: white !important;
+}
+.flex-item1 {
+  flex: 1; /* Each flex item takes equal width */
+  height: 200px; /* Set the desired height for the images */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  font-weight: 500;
+  visibility: visible;
+}
+.flex-item1 img {
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+}
+
+.content1 {
+  margin-top: 10px;
+}
+.content1 p {
+  margin-top: -18px;
+}
+.content2 {
+  margin-top: 10px;
+}
+.content2 p {
+  margin-top: -18px;
+}
+
+.new_res{
+    display: none;
+}
+
+@media screen and (max-width:1024px) {
+    .uppersection {
+        padding: 0px 70px;
+    }
+    .lowersection{
+        padding: 0px 70px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    /* .heading h1 {
+        font-size: 27px;
+    }
+    .heading p {
+        margin-top: -22px;
+        margin-left: 70px;
+        margin-bottom: 28px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+     */
+     .flex-item {
+        height: 200px;
+        width: 280px;
+        flex: none;
+        margin-bottom: 10px;
+     }
+     .flex-item1{
+        height: 200px;
+        width: 280px;
+        flex: none;
+        margin-bottom: 10px;
+     }
+     .lowersection {
+        margin-top: 0rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .heading h1 {
+        margin-top: 30px;
+        margin-left: 24px;
+        margin-bottom: 25px;
+        color: #0976BE;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .heading p {
+        margin-top: -21px;
+        margin-left: 26px;
+        margin-bottom: 30px;
+        font-weight: 500;
+    }
+    .no-res{
+        display: none;
+    }
+    .new_res{
+        display: block;
+    }
+
+    .para p {
+        margin-top: -15px;
+        margin-left: 26px;
+        font-weight: 500;
+    }
+
+    .divder p {
+        margin-left: 26px;
+        font-weight: 500;
+    }
+  
+}
+
+@media screen and (max-width:395px) {
+    .uppersection {
+        padding: 0px 54px;
+    }
+    .lowersection{
+        padding: 0px 54px;
+    }  
+}
+
+@media screen and (max-width:375px) {
+    .uppersection {
+        padding: 0px 47px;
+    }
+    .lowersection{
+        padding: 0px 47px;
+    }  
+}
+
+@media screen and (max-width:360px) {
+    .uppersection {
+        padding: 0px 40px;
+    }
+    .lowersection{
+        padding: 0px 40px;
+    }  
+}
+
+@media screen and (max-width:320px) {
+    .heading h1 {
+        margin-top: 30px;
+        margin-left: 12px;
+        margin-bottom: 25px;
+        color: #0976BE;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .heading p {
+        margin-top: -21px;
+        margin-left: 13px;
+        margin-bottom: 30px;
+        font-weight: 500;
+    }
+    .para p {
+        margin-top: -15px;
+        margin-left: 13px;
+        font-weight: 500;
+    }
+    .divder p {
+        margin-left: 13px;
+        font-weight: 500;
+    }
+
+    .uppersection {
+        padding: 0px 20px;
+    }
+    .lowersection{
+        padding: 0px 20px;
+    }  
+}
+
+@media screen and (max-width:280px) {
+    .uppersection {
+        padding: 0px 0px;
+    }
+    .lowersection{
+        padding: 0px 0px;
+    }  
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+  .ouredgebanner {
+    width: 100%;
+  }
+
+  .uppersection {
+    flex-direction: column;
+    width: 100%;
+  }
+  .lowersection {
+    flex-direction: column;
+    width: 100%;
+    margin-top: -10px;
+  }
+}

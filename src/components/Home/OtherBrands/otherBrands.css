@@ -1,0 +1,67 @@
+.OtherBrands_Home{
+    margin-bottom: 30px;
+}
+.innerOtherBrands_Home{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.otherBrandsTitle_Home{
+    color: #0F75BD;
+    font-size: 37px;
+    font-weight: 500;
+    text-align: left;
+    width: 90%;
+}
+.other_brands_home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.brand1_block{
+    height: 70vh;
+    width: 50%;
+    background: #0F75BD;
+    margin-right: 10px;
+}
+.brand2_block{
+    height: 70vh;
+    width: 50%;
+    margin-left: 10px;
+}
+.brand1_home{
+    height: 100%;
+    width: 100%;
+}
+.brand2_home{
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (min-width:1500px) {
+    .otherBrandsTitle_Home {
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width:2000px) {
+    .otherBrandsTitle_Home {
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .otherBrandsTitle_Home {
+        font-size: 33px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .otherBrandsTitle_Home {
+        font-size: 28px;
+        text-align: center;
+    }
+}

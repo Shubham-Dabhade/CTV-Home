@@ -1,0 +1,43 @@
+.OurBrands{
+    height: 100%;
+    width: 100%;
+}
+
+.partner_banner{
+    width: 100%;
+}
+
+.lowerBanner_partner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+}   
+.inside_lower_banner_partner{
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px 30px;
+}
+.tanzania-banner-container{
+    height: 100%;
+}
+.tanzania_banner_partner{
+    width: 100%;
+}
+.faiba_banner_partner{
+    width: 100%;
+    height: 100%;
+}
+.tanzania_banner_partner{
+    margin-right: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .inside_lower_banner_partner{
+        grid-template-columns: auto;
+        gap: 30px 30px;
+    }
+}
+

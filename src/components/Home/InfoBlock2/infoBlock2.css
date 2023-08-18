@@ -1,0 +1,584 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #e8e8ea;
+  padding: 2rem;
+  width: 100%;
+  position: relative;
+}
+.infoBlock2_top {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.infoBlock2_top_button {
+  font-size: 20px;
+  color: #1472b9;
+  font-weight: 650;
+  position: absolute;
+  display: inline-block;
+  right: 80px;
+  bottom: 30px;
+  cursor: pointer;
+  z-index: 555;
+}
+
+.service_heading {
+  width: 400px;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.img1 {
+  margin-top: 10px;
+}
+.img2 {
+  right: 2vh;
+  top: -8vh;
+  position: absolute;
+  height: 36rem;
+  width: 36rem;
+}
+.Tanzania_img {
+  height: 100%;
+  width: 100%;
+}
+
+.leftblock {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20vh;
+  color: #1472b9;
+}
+
+@media screen and (min-width: 1050px) {
+  .img2 {
+    right: 1vh;
+    top: -8vh;
+    position: absolute;
+    height: 34rem;
+    width: 34rem;
+  }
+  .leftblock {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vh;
+    color: #1472b9;
+  }
+}
+@media screen and (min-width: 1130px) {
+  .leftblock {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vh;
+    color: #1472b9;
+  }
+  .img2 {
+    right: 2vh;
+    top: -8vh;
+    position: absolute;
+    height: 36rem;
+    width: 36rem;
+  }
+}
+
+@media screen and (min-width: 1457px) {
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #e8e8ea;
+    padding: 2rem;
+    width: 100%;
+    position: relative;
+    height: 40vh;
+  }
+  .leftblock {
+    display: flex;
+    flex-direction: column;
+    margin-left: 14vh;
+    color: #1472b9;
+    width: 40%;
+  }
+  .service_heading {
+    width: 100%;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .img1 {
+    height: 100%;
+  }
+  .inside_img1 {
+    height: 100%;
+    width: 83%;
+  }
+  .img2 {
+    right: 2vh;
+    top: -8vh;
+    position: absolute;
+    height: 46rem;
+    width: 46rem;
+  }
+}
+
+@media screen and (min-width: 1866px) {
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #e8e8ea;
+    padding: 2rem;
+    width: 100%;
+    position: relative;
+    height: 50vh;
+  }
+  .leftblock {
+    width: 40%;
+  }
+  .service_heading {
+    width: 100%;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .img1 {
+    height: 100%;
+  }
+  .inside_img1 {
+    height: 100%;
+    width: 83%;
+  }
+  .img2 {
+    right: 3vh;
+    top: -5vh;
+    position: absolute;
+    height: 54rem;
+    width: 54rem;
+  }
+  .infoBlock2_top_button {
+    font-size: 40px;
+  }
+  .leftblock {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vh;
+    color: #1472b9;
+  }
+}
+/* 4k */
+@media screen and (min-width: 2560px) {
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #e8e8ea;
+    padding: 2rem;
+    width: 100%;
+    position: relative;
+    height: 56vh;
+    margin-bottom: 30px;
+  }
+  .leftblock {
+    width: 40%;
+  }
+  .service_heading {
+    width: 80%;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .img1 {
+    height: 100%;
+  }
+  .inside_img1 {
+    height: 100%;
+    width: 83%;
+  }
+  .img2 {
+    right: 3vh;
+    top: -8vh;
+    position: absolute;
+    height: 65rem;
+    width: 65rem;
+  }
+  .infoBlock2_top_button {
+    font-size: 40px;
+  }
+  .infoBlock1 {
+    margin: 3rem;
+    height: 48rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .item-info-block {
+    height: 47%;
+    text-align: left;
+    padding: 57px 103px 0px 60px;
+    color: white;
+    font-weight: 500;
+    font-size: 31px;
+    width: 45%;
+    margin: 10px;
+    display: flex;
+  }
+  .item-info-block-c {
+    position: absolute;
+    top: 20px;
+    right: -1px;
+    height: 110px;
+  }
+}
+
+/* Media Query for PCs */
+@media only screen and (max-width: 1024px) {
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .service_heading {
+    width: 100%;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .leftblock {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .img1 {
+    margin-top: 20px;
+  }
+
+  .img2 {
+    position: static;
+    margin-top: 1.2rem;
+    align-self: center;
+  }
+  .infoBlock2_top_button {
+    font-size: 20px;
+    font-weight: 550;
+    right: 80px;
+    bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .infoBlock2_top_button {
+    font-size: 17px;
+    font-weight: 550;
+    right: 50px;
+    bottom: 20px;
+  }
+}
+
+/* Media Query for Mobile */
+@media only screen and (max-width: 480px) {
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .service_heading {
+    width: 100%;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .img2 {
+    height: 20rem;
+    width: 21rem;
+  }
+  .leftblock {
+    margin: 1rem;
+    text-align: center;
+  }
+  .infoBlock2_top_button {
+    font-size: 11px;
+    font-weight: 550;
+    right: 20px;
+    bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .leftblock {
+    margin: 0rem;
+    width: 300px;
+  }
+  .inside_img1 {
+    width: 100%;
+  }
+  .img2 {
+    height: 20rem;
+    width: 20rem;
+  }
+  .infoBlock2_top_button {
+    font-size: 9px;
+    font-weight: 550;
+    right: 20px;
+    bottom: 4px;
+  }
+}
+
+@media screen and (min-width: 1400px) and (min-height: 700px) {
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #e8e8ea;
+    padding: 2rem;
+    width: 100%;
+    position: relative;
+    height: 76vh;
+  }
+}
+
+@media screen and (min-width: 1400px) and (min-height: 850px) {
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #e8e8ea;
+    padding: 2rem;
+    width: 100%;
+    position: relative;
+    height: 66vh;
+  }
+  .inside_img1 {
+    height: 100%;
+    width: 100%;
+  }
+  .img2 {
+    right: 1vh;
+    top: -5vh;
+    position: absolute;
+    height: 48rem;
+    width: 48rem;
+  }
+}
+
+/* new */
+
+.new_info_block_2_container {
+  background: #e8e8ea;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px;
+  margin: 70px 0px;
+  margin-top: 0px;
+}
+.inside_new_info_block_2_container {
+  width: 90%;
+  display: grid;
+  gap: 40px 40px;
+  grid-template-columns: 50% 50%;
+}
+.new_info_block_2_left_container {
+}
+.info_block_2_left_container_title {
+  color: #1472b9;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.info_block_2_left_services_container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px 30px;
+}
+.info_block_2_service_contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.info_block_2_service_img {
+  width: 35%;
+  margin-bottom: 10px;
+}
+.info_block_2_service_name {
+  font-size: 19px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* right-container */
+.new_info_block_2_right_container {
+  width: 100%;
+}
+.new_info_block_tanzania_image_container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tanzania_image_new_info_block_img {
+  width: 100%;
+  position: absolute;
+  top: -90px;
+  right: 0px;
+}
+
+@media screen and (min-width: 1400px) {
+  .tanzania_image_new_info_block_img {
+    width: 40vw;
+    position: absolute;
+    top: -90px;
+    right: 0px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .info_block_2_left_container_title {
+    color: #1472b9;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  .info_block_2_service_img {
+    width: 35%;
+    margin-bottom: 20px;
+  }
+  .info_block_2_service_name {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .tanzania_image_new_info_block_img {
+    width: 48vw;
+
+    position: absolute;
+    top: -115px;
+    right: -30px;
+  }
+}
+
+@media screen and (min-height: 850px) and (max-height: 1050px) {
+  .tanzania_image_new_info_block_img {
+    width: 47vw;
+    position: absolute;
+    top: -90px;
+    right: -30px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .info_block_2_left_container_title {
+    color: #1472b9;
+    font-size: 53px;
+    font-weight: 500;
+    margin-bottom: 35px;
+  }
+  .info_block_2_service_img {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  .info_block_2_service_name {
+    font-size: 37px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .tanzania_image_new_info_block_img {
+    width: 75vh;
+    position: absolute;
+    top: -135px;
+    right: -50px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .tanzania_image_new_info_block_img {
+    width: 49vw;
+    position: absolute;
+    top: -76px;
+    right: -6px;
+  }
+  .info_block_2_left_container_title {
+    color: #1472b9;
+    font-size: 30px;
+  }
+  .info_block_2_service_name {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .new_info_block_2_container {
+    margin: 0px;
+  }
+  .inside_new_info_block_2_container {
+    width: 90%;
+    display: grid;
+    gap: 40px 40px;
+    height: 100%;
+    grid-template-columns: auto;
+  }
+  .new_info_block_2_left_container {
+    width: 100%;
+    height: 100%;
+  }
+  .info_block_2_left_container_title {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .info_block_2_service_img {
+    width: 27%;
+    margin-bottom: 10px;
+  }
+  .new_info_block_2_right_container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .new_info_block_tanzania_image_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tanzania_image_new_info_block_img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .info_block_2_left_container_title {
+    color: #1472b9;
+    font-size: 26px;
+    text-align: center;
+  }
+  .info_block_2_service_img {
+    width: 40%;
+    margin-bottom: 10px;
+  }
+  .info_block_2_service_name {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .info_block_2_left_container_title {
+    color: #1472b9;
+    font-size: 20px;
+  }
+  .info_block_2_service_img {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .info_block_2_service_name {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .info_block_2_service_name {
+    font-size: 12px;
+  }
+}
